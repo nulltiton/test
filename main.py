@@ -19,6 +19,7 @@ coordinates = [
 
 @app.route('/')
 def index():
+    ### ХУЙ
     return render_template('index.html', coordinates=coordinates)
 
 
